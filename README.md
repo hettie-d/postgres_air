@@ -3,12 +3,14 @@
   which can be used for training and various performance experiments.
   The database is created by h_DB_n  (Hettie DOmbrovskaya & Boris Novikov) 
   
-## To install the core data use one of the following links:
+## The db dumps of core data can be found here:
+https://drive.google.com/drive/folders/13F7M80Kf_somnjb-mTYAnh1hW1Y_g4kJ?usp=sharing
 
-*  https://drive.google.com/file/d/1hfEOvK5gYbOaeTLYcqHtqC8pDBfMZyOM/view?usp=sharing
-   1.2 GB dump, use pg_restore
-*  https://drive.google.com/drive/folders/1gnQKvXgOkLVpLmsA63vDyncw0deqoHc8?usp=sharing
-   dump in directory format, smaller files for download, the total volume is the same
+This shared directory contains data dump of the postgres_air schema in two formats: 
+directory format and standard pg_dump format. The total size is about 1.2 GB in both cases,
+but the directory has smaller files to download.
+
+
  
 ## Data sources
  

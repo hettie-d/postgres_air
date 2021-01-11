@@ -1,4 +1,5 @@
 CREATE INDEX flight_departure_airport ON postgres_air.flight  (departure_airport);
+CREATE INDEX flight_arrival_airport ON postgres_air.flight  (arrival_airport);
 CREATE INDEX flight_actual_departure ON postgres_air.flight  (actual_departure);
 CREATE INDEX flight_update_ts ON postgres_air.flight  (update_ts);
 CREATE INDEX flight_canceled ON postgres_air.flight  (flight_id) WHERE (status = 'Canceled'::text);
