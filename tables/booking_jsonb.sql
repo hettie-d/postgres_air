@@ -53,3 +53,8 @@ JOIN
  GROUP by booking_id) ps
  ON ls.booking_id = ps.booking_id
 ) ;
+
+CREATE INDEX idxgin
+    ON booking_jsonb USING gin
+    (cplx_booking);
+       

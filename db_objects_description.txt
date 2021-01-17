@@ -1,0 +1,13 @@
+When you install the postgres_air, you will have all the tables with data 
+and integrity constraints, but no indexes except for the PK/UQ and no large objects
+
+The indexes.sql file contains all indexes which are used in the PostgreSQL Optimization
+book, you may choose which one you need or create your own.
+
+The tables directory contains the code to build large tables, which we used to demonstrate 
+some optimization techniques. You can use this code or come up with your own.
+
+The types and functions directories contain the code for the functions which were created 
+for the PostgreSQL Optimization book, including the ones which utilize NORM methodology.
+
+See  https://github.com/hettie-d/NORM  for details.
