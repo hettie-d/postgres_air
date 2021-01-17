@@ -1,10 +1,18 @@
 CREATE INDEX flight_departure_airport ON postgres_air.flight  (departure_airport);
 CREATE INDEX flight_arrival_airport ON postgres_air.flight  (arrival_airport);
+CREATE INDEX flight_scheduled_departure ON postgres_air.flight  (scheduled_departure);
 CREATE INDEX flight_actual_departure ON postgres_air.flight  (actual_departure);
 CREATE INDEX flight_update_ts ON postgres_air.flight  (update_ts);
 CREATE INDEX flight_canceled ON postgres_air.flight  (flight_id) WHERE (status = 'Canceled'::text);
 CREATE INDEX flight_actual_departure_not_null ON postgres_air.flight  (actual_departure) WHERE (actual_departure IS NOT NULL);
 CREATE INDEX flight_depart_arr_sched_dep ON postgres_air.flight  (departure_airport, arrival_airport, scheduled_departure);
+CREATE INDEX flight_depart_arr_sched_dep_sched_arr ON postgres_air.flight (departure_airport,arrival_airport,scheduled_departure,scheduled_arrival );
+CREATE INDEX flight_depart_arr_sched_dep_inc_sched_arr
+    ON flight
+   (departure_airport, 
+    arrival_airport, 
+    scheduled_departure)    
+    INCLUDE (scheduled_arrival);
 CREATE INDEX airport_city ON postgres_air.airport  (city);
 CREATE INDEX booking_leg_booking_id ON postgres_air.booking_leg  (booking_id);
 CREATE INDEX booking_leg_update_ts ON postgres_air.booking_leg  (update_ts);
