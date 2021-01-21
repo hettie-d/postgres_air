@@ -7,17 +7,17 @@
 
 [Download Link](https://drive.google.com/drive/folders/13F7M80Kf_somnjb-mTYAnh1hW1Y_g4kJ?usp=sharing)
 
-This shared directory contains data dump of the postgres_air schema in three formats:
-directory format, default pg_dump format and compressed SQL format.
+This shared directory contains a data dump of the postgres_air schema in three formats:
+directory format, the default pg_dump format and compressed SQL format.
 
 The total size of each is about 1.2 GB.
-Use directory format, if you prefer do download smaller files.
-Use SQL if you want to avoid warnings about objects ownership.
+Use the directory format, if you prefer to download smaller files.
+Use SQL if you want to avoid warnings about object ownership.
 
 For directory format and default format, use pg_restore.
 For SQL, unzip the file and use  psql for restore.
 
-You can also use QR code provided in the QR_download file to access this directory.
+You can also use the QR code provided in the QR_download file to access this directory.
 
 ![QR Download Code](QR_download.png)
 
@@ -25,7 +25,7 @@ You can also use QR code provided in the QR_download file to access this directo
 
 See the db_objects_description.txt file.
 
-## To populate the tables, the following public data sources where used
+## To populate the tables, the following public data sources were used
 
 * The Global Airport Database
    https://www.partow.net/miscellaneous/airportdatabase/index.html#GlobalAirportDatabaseLicens
@@ -50,7 +50,7 @@ See the db_objects_description.txt file.
 
 ## Disclaimer
 
- Hettie & Boris do not guarantee the 100% accuracy of the data.
+ Hettie and Boris do not guarantee the 100% accuracy of the data.
  We tried our best, but it is still possible that some airports ended up in the wrong cities
  and some cities ended up in the wrong countries.
  No offense intended in any of the above cases!
