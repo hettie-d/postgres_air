@@ -35,18 +35,19 @@ See the db_objects_description.txt file.
 
 * Airbus - All Aircraft & Prices, Specs, Photos, Interior, Seating - Aircraft Compare
   https://www.aircraftcompare.com/manufacturers/airbus/
+  
+*  Frequently Occurring Surnames from the 2010 Census
+  https://www.census.gov/topics/population/genealogy/data/2010_surnames.html
+  
 
 * Most Common Surnames [Last Names] in the United States (top 1000)
   https://namecensus.com/most_common_surnames.htm
 
-* Data Hub for all the World's Airports
-  https://www.world-airport-codes.com
+ * First names male:
+   https://namecensus.com/male_names.htm
 
-* Airports By Airport Code
-  https://www.world-airport-codes.com/alphabetical/airport-code/z.html?page=1
-
-* Frequently Occurring Surnames from the 2010 Census
-  https://www.census.gov/topics/population/genealogy/data/2010_surnames.html
+* First names female:
+  https://namecensus.com/female_names.htm
 
 ## Disclaimer
 
