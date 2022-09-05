@@ -21,6 +21,18 @@ You can also use the QR code provided in the QR_download file to access this dir
 
 ![QR Download Code](QR_download.png)
 
+## 09/05/2022: IMPORTANT UPDATES
+
+The version of the postgres_air database, which is used in the PostgreSQL Query optimization book, has "today" set to August 18, 2020. While we want to keep this version available to our readers at least until the book's next edition is out, we wanted to provide a more up-to-date version. 
+
+The postgres_air_2022.backup contains the up-to-date version of the postgres_air database. The following changes were made:
+
+* "today" is August 18, 2022
+
+* to adequately reflect the current situation, all Russian airports are excluded from the bookings. The Postgres Air airline company complies with international sanctions and no longer flies to Russia.
+
+
+
 ## What are the rest of the files for?
 
 See the db_objects_description.txt file.
