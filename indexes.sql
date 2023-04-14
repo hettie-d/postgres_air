@@ -27,9 +27,6 @@ CREATE INDEX account_domain_lower_pattern ON postgres_air.account  (lower(revers
 CREATE INDEX account_to_text_id_pattern ON postgres_air.account  (((account_id)::text) text_pattern_ops);
 CREATE INDEX account_login_lower_pattern ON postgres_air.account  (lower(login) text_pattern_ops);
 CREATE INDEX account_frequent_flyer_id ON postgres_air.account  (frequent_flyer_id);
-CREATE UNIQUE INDEX flight_departure_flight_id ON postgres_air.flight_departure_mv  (flight_id);
-CREATE INDEX flight_departure_dep_date ON postgres_air.flight_departure_mv  (departure_date);
-CREATE INDEX flight_departure_dep_airport ON postgres_air.flight_departure_mv  (departure_airport);
 CREATE INDEX boarding_pass_update_ts ON postgres_air.boarding_pass  (update_ts);
 CREATE INDEX boarding_pass_passenger_id ON postgres_air.boarding_pass  (passenger_id);
 CREATE INDEX boarding_pass_booking_leg_id ON postgres_air.boarding_pass  (booking_leg_id);

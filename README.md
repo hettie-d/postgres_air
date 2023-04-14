@@ -31,7 +31,30 @@ The postgres_air_2022.backup contains the up-to-date version of the postgres_air
 
 * to adequately reflect the current situation, all Russian airports are excluded from the bookings. The Postgres Air airline company complies with international sanctions and no longer flies to Russia.
 
+## 04/12/2023: IMPORTANT UPDATES
 
+The new version of postgres_air backup is now available in the same share directory:
+
+postgres_air_2023.backup
+
+NOTE: the postgres_air_2022.backup is romoved.
+
+In addition to moving the timestamps one more year forward (the new "today" ia August 17 2023) there are multiple important fixes based on the feedback received from our amazing followers and book readers:
+
+* Arrival timestamps corrected to make the flight durations consistent with distances. This change resulted in inconsistent itineraries for some bookings. To address this, the inconsistent flights were rebooked. 
+
+* Inconsistetly named integrity constraints renamed.
+
+* Overlapping bookings for the same passanger are replaced with bookings for other passengers.
+
+* The problem of overbooked flights is addressed in three different ways: (1) additional flights (2) aircraft change (to larger capacity), (3) rebook passengers. 
+
+* The backup contains stored procedure postgres_air.advance_air_time (
+   p_weeks int default 52,
+   p_schema_name text default 'postgres_air',
+   p_run boolean default false)
+   
+   This procedure moves all the dates in the schema for the number of weeks specified by the first parameter.
 
 ## What are the rest of the files for?
 
