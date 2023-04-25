@@ -33,11 +33,11 @@ The postgres_air_2022.backup contains the up-to-date version of the postgres_air
 
 ## 04/12/2023: IMPORTANT UPDATES
 
-The new version of postgres_air backup is now available in the same share directory:
+The new version of postgres_air backup is now available in the same shared directory:
 
 postgres_air_2023.backup
 
-NOTE: the postgres_air_2022.backup is romoved.
+NOTE: the postgres_air_2022.backup is removed.
 
 In addition to moving the timestamps one more year forward (the new "today" is August 17 2023) there are multiple important fixes based on the feedback received from our amazing followers and book readers:
 
