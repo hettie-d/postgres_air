@@ -1,7 +1,7 @@
 # postgres\_air
- This repo contains components for building the postgres_air database,
-  which can be used for training and various performance experiments.
-  The database is created by hDBn  (Hettie Dombrovskaya & Boris Novikov)
+This repo contains components for building the postgres_air database,
+which can be used for training and various performance experiments.
+The database is created by hDBn  (Hettie Dombrovskaya & Boris Novikov)
 
 ## The db dumps of core data can be found here:
 
@@ -74,24 +74,23 @@ See the db_objects_description.txt file.
 *  Frequently Occurring Surnames from the 2010 Census
   https://www.census.gov/topics/population/genealogy/data/2010_surnames.html
   
-
 * Most Common Surnames [Last Names] in the United States (top 1000)
   https://namecensus.com/most_common_surnames.htm
 
- * First names male:
-   https://namecensus.com/male_names.htm
+* First names male:
+  https://namecensus.com/male_names.htm
 
 * First names female:
   https://namecensus.com/female_names.htm
 
 ## Disclaimer
 
- Hettie and Boris do not guarantee the 100% accuracy of the data.
- We tried our best, but it is still possible that some airports ended up in the wrong cities
- and some cities ended up in the wrong countries.
- No offense intended in any of the above cases!
+Hettie and Boris do not guarantee the 100% accuracy of the data.
+We tried our best, but it is still possible that some airports ended up in the wrong cities
+and some cities ended up in the wrong countries.
+No offense intended in any of the above cases!
 
- The flights' schedules are 100% imaginary; we guarantee that the flights' durations are realistic and
- each airport is reachable from any other airport, but the schedule does not resemble any real airline schedule.
+The flights' schedules are 100% imaginary; we guarantee that the flights' durations are realistic and
+each airport is reachable from any other airport, but the schedule does not resemble any real airline schedule.
 
- Use at your own risk.
+Use at your own risk.

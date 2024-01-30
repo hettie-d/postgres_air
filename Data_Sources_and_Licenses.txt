@@ -1,5 +1,4 @@
-
-Airpor codes, cities, countries, georaphical areas and geolocations data source:
+Airport codes, cities, countries, georaphical areas and geolocations data source:
 
 OpenFlights
 
@@ -74,5 +73,3 @@ https://namecensus.com/male_names.htm
 
 First names female:
 https://namecensus.com/female_names.htm
-
-
